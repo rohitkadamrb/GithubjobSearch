@@ -29,7 +29,7 @@ function App() {
   {loading && <h1>Loading ....</h1>}
   {error && <h1>Error Try Refreshing .</h1>}
   <h3> {jobs.map(job => {
-    console.warn(job.title)
+    //console.warn(job.title)
     return <Job key={job.id} job={job}> </Job> 
     
   })} </h3>
