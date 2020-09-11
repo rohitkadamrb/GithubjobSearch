@@ -1,6 +1,6 @@
  import {useReducer , useEffect} from 'react'
  import axios from 'axios'
-const BASE_URL = 'http://localhost:8010/proxy';
+const BASE_URL = 'https://jobs.github.com/positions.json';
  const ACTION = {
    MAKE_REQUEST: 'make-request',
    GET_DATA:'get_data',

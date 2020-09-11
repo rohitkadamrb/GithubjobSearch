@@ -14,7 +14,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "proxy": "lcp --proxyUrl https://www.yourdomain.ie",
+    "proxy": "lcp --proxyUrl https://jobs.github.com/positions.json",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
